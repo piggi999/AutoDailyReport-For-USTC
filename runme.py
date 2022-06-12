@@ -21,18 +21,18 @@ report_data = [
     ("other_detail", "无"),  # 其他情况说明
 ]
 cross_campus_data = [
-#     ("return_college[]", "东校区"),  # 往返校区
-    ("return_college[]", "西校区"),  # 往返校区
-#     ("return_college[]", "南校区"),  # 往返校区
-#     ("return_college[]", "北校区"),  # 往返校区
-    ("return_college[]", "中校区"),  # 往返校区
+    ("return_college[]", "东校区"),  # 往返校区
+    # ("return_college[]", "西校区"),  # 往返校区
+    # ("return_college[]", "南校区"),  # 往返校区
+    # ("return_college[]", "北校区"),  # 往返校区
+    # ("return_college[]", "中校区"),  # 往返校区
     ("reason", "玩"),  # 原因
 ]
 out_school_data = [
     ("return_college[]", "蜀山区"),  # 目的地
-#     ("return_college[]", "包河区"),  # 目的地
-#     ("return_college[]", "瑶海区"),  # 目的地
-#     ("return_college[]", "庐阳区"),  # 目的地
+    # ("return_college[]", "包河区"),  # 目的地
+    # ("return_college[]", "瑶海区"),  # 目的地
+    # ("return_college[]", "庐阳区"),  # 目的地
     ("reason", "玩"),  # 原因
 ]
 if __name__ == "__main__":
